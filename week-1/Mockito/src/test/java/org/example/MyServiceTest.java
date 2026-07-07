@@ -17,4 +17,11 @@ public class MyServiceTest {
         assertEquals("Hello Nikhil",res);
         verify(api).getData();
     }
+    @Test
+    void testVerifyInteraction(){
+        ExternalApi mockapi=mock(ExternalApi.class);
+        MyService service=new MyService(mockapi);
+        service.fetchData();
+        verify(mockapi).getData();
+    }
 }
