@@ -10,12 +10,13 @@ public class SpringLearnApplication {
 
 	public static void main(String[] args) {
 
-
 		SpringApplication.run(SpringLearnApplication.class, args);
 
-		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+		ApplicationContext context =
+				new ClassPathXmlApplicationContext("country.xml");
 
-		Country country = context.getBean("country", Country.class);
+		Country country =
+				context.getBean("country", Country.class);
 
 		System.out.println(country);
 	}
