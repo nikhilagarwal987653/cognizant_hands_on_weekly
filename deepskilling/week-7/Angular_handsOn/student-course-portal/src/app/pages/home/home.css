@@ -1,0 +1,15 @@
+section {
+  padding: 30px;
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.stats div {
+  border: 1px solid #cccccc;
+  padding: 15px 25px;
+  border-radius: 8px;
+}

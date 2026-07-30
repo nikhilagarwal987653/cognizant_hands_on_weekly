@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 25px;
+  background-color: #eeeeee;
+}
+
+nav h2 {
+  margin-right: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
